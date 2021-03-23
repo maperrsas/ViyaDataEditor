@@ -1,0 +1,41 @@
+textarea {
+	border: none;
+	width: 100%;
+	height: 140px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	resize: none;
+}
+
+th, td {
+    padding: 5px;
+  
+}
+
+.tblheader{
+    font-weight: bold;
+}
+.tblbackground{
+    background: #F0F0F0;
+}
+
+.tbloutline{
+    border: 1px solid black
+}
+
+.tblcenter{
+    text-align: center;
+}
+
+.tblvcenter{
+    vertical-align: middle;
+}
+
+.tblvtop{
+    vertical-align: top;
+}
+
+.numspinner{
+	width:50px;
+}
