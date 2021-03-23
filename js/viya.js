@@ -234,7 +234,7 @@ function drawTableUpdateDialog(index){
 		
 		inputHtml += '<label for="' + column_data[i].title + '">' + column_data[i].title + '</label>';
 		if(column_data[i].type === 'double')
-			inputHtml += '<input type="number" class="form-control" id="' + column_data[i].title + '" name="' + column_data[i].title + '" value="' + editValue + '"/>';
+			inputHtml += '<input type="number" step="any" class="form-control" id="' + column_data[i].title + '" name="' + column_data[i].title + '" value="' + editValue + '"/>';
 		else
 			inputHtml += '<input type="text" class="form-control" id="' + column_data[i].title + '" name="' + column_data[i].title + '" value="' + editValue + '"/>';
 		
